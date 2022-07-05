@@ -42,7 +42,7 @@ body {
     border: none;
 }
 
-.DonationArea {
+.SectionStyle {
     width: 800px;
     text-align: center;
     margin-left: 250px;
@@ -50,17 +50,11 @@ body {
 
 }
 
-.content2 {
-
-    display: flex;
-    justify-content: center;
-}
-
-.content2 h1 {
+.contentStyle h1 {
     font-size: 40px
 }
 
-.content2 p {
+.contentStyle p {
     font-weight: 100;
 }
 
@@ -107,3 +101,5 @@ body {
     width: 500px;
     border: none
 }
+
+.content3 {}
