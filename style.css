@@ -33,10 +33,77 @@ body {
 
 }
 
-.button1 {
+.button {
     text-decoration: none;
     color: white;
     background-color: rgba(240, 26, 26, 0.942);
     padding: 8px 20px 8px 20px;
     border-radius: 4px;
+    border: none;
+}
+
+.DonationArea {
+    width: 800px;
+    text-align: center;
+    margin-left: 250px;
+    color: black;
+
+}
+
+.content2 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.content2 h1 {
+    font-size: 40px
+}
+
+.content2 p {
+    font-weight: 100;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.boxStyle {
+    width: 120px;
+    height: 70px;
+    align-items: center;
+    padding-top: 40px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: rgba(244, 232, 232, 0.396);
+}
+
+.selected {
+    width: 120px;
+    height: 70px;
+    align-items: center;
+    padding-top: 40px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(238, 80, 80);
+    background-color: rgba(255, 192, 203, 0.276);
+}
+
+.donate-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.AmountArea {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    justify-content: center;
+
+}
+
+.AmountArea input {
+    width: 500px;
+    border: none
 }
