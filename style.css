@@ -43,24 +43,23 @@ body {
 }
 
 .SectionStyle {
-    width: 800px;
     text-align: center;
-    margin-left: 250px;
     color: black;
-
 }
 
 .contentStyle h1 {
     font-size: 40px
 }
 
-.contentStyle p {
+p {
     font-weight: 100;
+
 }
 
 .box {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .boxStyle {
@@ -92,14 +91,50 @@ body {
 .AmountArea {
     display: flex;
     width: 100%;
-    margin: 20px 0px 20px 0px;
+    margin: 15px 0px 20px 0px;
     justify-content: center;
 
 }
 
 .AmountArea input {
     width: 500px;
+    height: 30px;
     border: none
 }
 
-.content3 {}
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 60px 30px 60px;
+}
+
+.boxStyle2 {
+    width: 30%;
+    text-align: left;
+    padding: 25px;
+    background-color: rgba(221, 233, 238, 0.67);
+    margin: 20px;
+
+}
+
+.boxStyle3 {
+    width: 30%;
+    text-align: left;
+    padding: 25px;
+    background-color: rgba(241, 174, 185, 0.219);
+    margin: 20px;
+
+}
+
+.boxStyle4 {
+    width: 30%;
+    text-align: left;
+    padding: 25px;
+    background-color: rgba(175, 225, 196, 0.177);
+    margin: 20px;
+
+}
+
+.box2 img {
+    width: 15%
+}
