@@ -11,12 +11,14 @@ body {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .content {
-    width: 800px;
+    width: 60%;
+    height: 60%;
     text-align: center;
-    margin-left: 270px;
+    background-color: rgba(1, 1, 19, 0.25);
     color: white;
 }
 
@@ -40,15 +42,20 @@ body {
 }
 
 .SectionStyle {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     color: black;
     margin-bottom: 10px;
     align-items: center;
 }
 
 .contentStyle {
-    width: 50%;
-    margin-left: 335px;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    background-color: rgba(182, 230, 192, 0.058);
+    color: black;
+    margin: 10px 0px 10px 0px
 }
 
 .SectionStyle h1 {
@@ -68,7 +75,7 @@ p {
 .boxStyle {
     width: 120px;
     height: 70px;
-    align-items: center;
+    text-align: center;
     padding-top: 40px;
     margin: 8px;
     border-radius: 5px;
@@ -78,7 +85,7 @@ p {
 .selected {
     width: 120px;
     height: 70px;
-    align-items: center;
+    text-align: center;
     padding-top: 40px;
     margin: 8px;
     border-radius: 5px;
@@ -86,22 +93,16 @@ p {
     background-color: rgba(255, 192, 203, 0.276);
 }
 
-.donate-section {
-    display: flex;
-    flex-direction: column;
-}
-
-.AmountArea {
-    display: flex;
-    width: 100%;
-    margin: 15px 0px 20px 0px;
-    justify-content: center;
-}
-
-.AmountArea input {
-    width: 500px;
-    height: 30px;
+.other-amount {
+    width: 100px;
+    height: 29px;
     border: none;
+    align-items: center;
+}
+
+hr {
+    width: 492px;
+    margin-left: 0px;
 }
 
 .box2 {
@@ -138,41 +139,39 @@ p {
     width: 15%;
 }
 
-.partner-section {
-    width: 80%;
-    margin-left: 135px;
-}
-
 .partnerbox {
+    width: 80%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    align-items: center;
 }
 
 .partnerboxStyle {
-    width: 500px;
+    width: 350px;
     height: 70px;
-    align-items: baseline;
     padding-top: 40px;
     margin: 10px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.027);
     box-shadow: 10px 10px 10px black;
+    text-align: center;
 }
 
 .subscription-area {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(209, 242, 205, 0.713);
     width: 600px;
     height: 130px;
-    margin-left: 365px;
 }
 
 .subscription-area input {
-    margin-top: 50px;
-    height: 25px;
-    margin-right: -6px;
-    background-color: whitesmoke
+    width: 250px;
+    margin-right: -2px;
+    height: 29px;
+    background-color: whitesmoke;
+    border: none;
 }
 
 .footer-section {
