@@ -17,7 +17,7 @@ body {
 .content {
     width: 800px;
     text-align: center;
-    margin-left: 250px;
+    margin-left: 270px;
     color: white;
 
 }
@@ -55,7 +55,7 @@ body {
     margin-left: 335px;
 }
 
-.contentStyle h1 {
+.SectionStyle h1 {
     font-size: 40px
 }
 
@@ -144,9 +144,30 @@ p {
 }
 
 .box2 img {
-    width: 15%
+    width: 15%;
 }
 
+.partner-section {
+    width: 80%;
+    margin-left: 135px;
+}
+
+.partnerbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.partnerboxStyle {
+    width: 500px;
+    height: 70px;
+    align-items: baseline;
+    padding-top: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.027);
+    box-shadow: 10px 10px 10px black;
+}
 
 .subscription-area {
 
@@ -179,6 +200,6 @@ p {
     font-weight: 800;
 }
 
-.footer-item span {
+.orange-color {
     color: orangered;
 }
