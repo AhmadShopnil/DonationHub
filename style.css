@@ -29,7 +29,7 @@ body {
 }
 
 .content p {
-    font-weight: 650;
+    font-weight: 400;
 
 }
 
@@ -47,6 +47,12 @@ body {
     color: black;
     margin-bottom: 10px;
     align-items: center;
+
+}
+
+.contentStyle {
+    width: 50%;
+    margin-left: 335px;
 }
 
 .contentStyle h1 {
@@ -147,7 +153,7 @@ p {
     background-color: rgba(209, 242, 205, 0.713);
     width: 600px;
     height: 130px;
-    margin-left: 350px;
+    margin-left: 365px;
 }
 
 .subscription-area input {
