@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: 'Abril Fatface', cursive;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,7 +18,6 @@ body {
     text-align: center;
     margin-left: 270px;
     color: white;
-
 }
 
 .content h1 {
@@ -30,7 +28,6 @@ body {
 
 .content p {
     font-weight: 400;
-
 }
 
 .button {
@@ -47,7 +44,6 @@ body {
     color: black;
     margin-bottom: 10px;
     align-items: center;
-
 }
 
 .contentStyle {
@@ -56,12 +52,11 @@ body {
 }
 
 .SectionStyle h1 {
-    font-size: 40px
+    font-size: 40px;
 }
 
 p {
     font-weight: 100;
-
 }
 
 .box {
@@ -101,13 +96,12 @@ p {
     width: 100%;
     margin: 15px 0px 20px 0px;
     justify-content: center;
-
 }
 
 .AmountArea input {
     width: 500px;
     height: 30px;
-    border: none
+    border: none;
 }
 
 .box2 {
@@ -122,7 +116,6 @@ p {
     padding: 25px;
     background-color: rgba(221, 233, 238, 0.67);
     margin: 20px;
-
 }
 
 .boxStyle3 {
@@ -131,7 +124,6 @@ p {
     padding: 25px;
     background-color: rgba(241, 174, 185, 0.219);
     margin: 20px;
-
 }
 
 .boxStyle4 {
@@ -140,7 +132,6 @@ p {
     padding: 25px;
     background-color: rgba(175, 225, 196, 0.177);
     margin: 20px;
-
 }
 
 .box2 img {
