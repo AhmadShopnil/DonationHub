@@ -7,7 +7,7 @@ body {
 .banner {
     width: 100%;
     height: 600px;
-    background-image: url(images/donation3.jpg);
+    background-image: url(images/donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -45,6 +45,8 @@ body {
 .SectionStyle {
     text-align: center;
     color: black;
+    margin-bottom: 10px;
+    align-items: center;
 }
 
 .contentStyle h1 {
@@ -137,4 +139,40 @@ p {
 
 .box2 img {
     width: 15%
+}
+
+
+.subscription-area {
+
+    background-color: rgba(209, 242, 205, 0.713);
+    width: 600px;
+    height: 130px;
+    margin-left: 350px;
+}
+
+.subscription-area input {
+    margin-top: 50px;
+    height: 25px;
+    margin-right: -6px;
+    background-color: whitesmoke
+}
+
+.footer-section {
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+}
+
+.footer-item {
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+.footer-item h1 {
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.footer-item span {
+    color: orangered;
 }
